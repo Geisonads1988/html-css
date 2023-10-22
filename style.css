@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(252, 250, 250);
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 3px 5px black;
+    font-size: 20px;
+
+}
+
+section {
+    background-image: url("./img/Tipos-de-palestras.jpg");
+    background-size: 1248px;
+    overflow: hidden;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.formContainer {
+    max-width: 300px;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.459);
+    border-radius: 4px;
+    float: left;
+    margin: 15px;
+    border: none;
+}
+
+h2,
+p {
+    margin-bottom: 12px;
+
+}
+
+.caixa {
+    width: 100%;
+    height: 45px;
+    border: none;
+    margin-bottom: 8px;
+    text-indent: 6px;
+}
+
+select {
+    width: 100%;
+    height: 45px;
+    border: none;
+    margin-bottom: 8px;
+    text-indent: 6px;
+}
+
+#button {
+    width: 100%;
+    height: 45px;
+    border: none;
+    background-color: rgb(31, 175, 96);
+    border: 1px solid rgba(125, 233, 125, 0.849);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    color: rgb(36, 30, 43);
+    text-shadow: -1px -1px 2px white;
+    cursor: pointer;
+}
+
+footer {
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(5, 5, 5);
+    overflow: hidden;
+}
+
+.boxImg {
+    float: right;
+    padding: 31px 35px 10px;
+    ;
+}
+
+.boxText {
+    max-width: 500px;
+}
+
+.topo {
+    color: rgba(126, 128, 128, 0.658);
+    font-family: monospace;
+    font-size: 20px;
+    padding: 30px 0 0 30px;
+}
+
+.meio {
+    color: white;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 30px 0 0 30px;
+    font-weight: lighter;
+}
+
+.dif {
+    background-image: linear-gradient(to right, rgb(107, 168, 27), rgb(33, 180, 206));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    padding: 10px 0 0 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+#dif1 {
+    color: white;
+    padding: 6px 0 0 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.container1{
+max-width: 1000px;
+height: 600px;
+background-color: rgb(46, 48, 47);
+padding: 30px;
+text-align: center;
+display:flex;
+justify-content:space-between;
+
+
+
+
+}
+
+.cx1 {
+background-color: aqua;
+width: 180px;
+height: 180px;
+background-image: url("img/palestrante_1.jpg");
+background-size:cover;
+border-radius: 16px 10px 16px 10px;
+border: 2px solid white;
+
+}
+
+.cx2 {
+background-color: rgb(207, 70, 29);
+width: 180px;
+height: 180px;
+border-radius: 16px 10px 16px 10px;
+background-image: url("img/palestrantes_2.jpg");
+background-size:cover;
+border: 2px solid white;
+}
+
+.cx3 {
+background-color: rgb(78, 32, 187);
+width: 180px;
+height: 180px;
+border-radius: 16px 10px 16px 10px;
+background-image: url("img/palestrante_3.jpg");
+background-size:cover;
+border: 2px solid white;
+}
+
+.cx4 {
+background-color: rgb(5, 94, 64);
+width: 180px;
+height: 180px;
+border-radius: 16px 10px 16px 10px;
+background-image: url("img/palestrante_4.jpg");
+background-size:cover;
+border: 2px solid white;
+}
+
+.cx5 {
+background-color: rgb(184, 202, 24);
+width: 180px;
+height: 180px;
+border-radius: 16px 10px 16px 10px;
+background-image: url("img/palestrante_5.jpg");
+background-size:cover;
+border: 2px solid white;
+}
